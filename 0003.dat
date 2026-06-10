@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Parameters xmlns="http://xml.spss.com/pasw/extension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" debug="false" version="9.0" xsi:schemaLocation="http://xml.spss.com/pasw/extension http://xml.spss.com/pasw/extension/parameters.xsd">
+<Parameter name="neuralnet.TaskType" value="buildNewModel"/>
+<Parameter name="neuralnet.MLPTrainingIntervalCenter" value="0.0"/>
+<Parameter name="neuralnet.RBFHiddenUnitsOverlappingFactor" value="0.1"/>
+<Parameter name="tree.UseCosts" value="false"/>
+<Parameter name="scoring.future_time_as" value="None"/>
+<Parameter name="neuralnet.MLPTrainingInitialSigma" value="5.0E-5"/>
+<Parameter name="neuralnet.NeuralNetworkAlgorithm" value="multilayerPerceptron"/>
+<Parameter name="scoring.isOutputInputData" value="true"/>
+<Parameter name="boosting.UseMetaDataRole" value="false"/>
+<Parameter name="neuralnet.RBFHiddenLayerUnitsRangeMinimum" value="0"/>
+<Parameter name="scoring.isRuleID" value="false"/>
+<Parameter name="psm_distribute.EnsembleCatMethod" value="Voting"/>
+<Parameter name="neuralnet.UseRandomSeed" value="true"/>
+<Parameter name="role_use" value="false"/>
+<Parameter name="scoring.selflearningTargetFields">
+<ListValue/>
+</Parameter>
+<Parameter name="tree.SplitAlpha" value="0.05"/>
+<Parameter name="scoring.adNumAnomalyFields" value="3"/>
+<Parameter name="neuralnet.MLPStoppingMinimumRelativeTrainingErrorRatioChange" value="0.001"/>
+<Parameter name="psm_distribute.RandomSelectionRatio" value="0.3"/>
+<Parameter name="scoring.assocEqualsBasket" value="false"/>
+<Parameter name="UseCustomSplitFields" value="false"/>
+<Parameter name="tree.ChiSquareType" value="pearson"/>
+<Parameter name="tree.AlphaForVariableSelection" value="0.0"/>
+<Parameter name="scoring.isOutputIntNodeId" value="false"/>
+<Parameter name="neuralnet.MLPHiddenLayerActivationFunction" value="hyperbolicTangent"/>
+<Parameter name="scoring.adScoreMethod" value="FLAG_AND_SCORE"/>
+<Parameter name="neuralnet.RescalingRangeTargets" value="standardized"/>
+<Parameter name="scoring.assocRuleCriterion" value="confidence"/>
+<Parameter name="psm_distribute.TraceFlag" value="false"/>
+<Parameter name="split_collect.TargetFieldList">
+<ListValue/>
+</Parameter>
+<Parameter name="me.AdjustedPropensityPartition" value="test"/>
+<Parameter name="neuralnet.MLPTrainingMomentum" value="0.9"/>
+<Parameter name="NumberOfTrials" value="10"/>
+<Parameter name="boosting.UseRandomSeed" value="false"/>
+<Parameter name="boosting.RandomSeed" value="12345"/>
+<Parameter name="tree.MaxIterations" value="100"/>
+<Parameter name="neuralnet.MLPStoppingMinimumRelativeTrainingErrorChange" value="1.0E-4"/>
+<Parameter name="scoring.mmUseDomParserSize" value="33554432"/>
+<Parameter name="neuralnet.MLPTrainingIntervalOffset" value="0.5"/>
+<Parameter name="veryLargeData" value="false"/>
+<Parameter name="scoring.encoding" value="UTF-8"/>
+<Parameter name="neuralnet.OverFitPreventionSetPct" value="30.0"/>
+<Parameter name="psm_meta_data_source" value="PSM"/>
+<Parameter name="tree.PruneTree" value="true"/>
+<Parameter name="scoring.num_future_times" value="1"/>
+<Parameter name="neuralnet.MLPTrainingMiniBatchRecordsNumber" value="2"/>
+<Parameter name="tree.MergeAlpha" value="0.05"/>
+<Parameter name="scoring.isCaseLabel" value="false"/>
+<Parameter name="scoring.useNameList" value="false"/>
+<Parameter name="boosting.FrequencyWeightField" value=""/>
+<Parameter name="neuralnet.MLPHiddenLayerUnits" value="automaticallyCompute"/>
+<Parameter name="boosting.RegressionWeightSupported" value="false"/>
+<Parameter name="bag_distribute.EnsembleConMethod" value="Mean"/>
+<Parameter name="analytic_server_last_dm" value=""/>
+<Parameter name="psm_distribute.HoldOutDataSize" value="3000"/>
+<Parameter name="pasw.annotation_lastSavedBy" value="HP"/>
+<Parameter name="boosting.MaxIterations" value="10"/>
+<Parameter name="tree.InputFieldList">
+<ListValue>
+<Value value="gender"/>
+<Value value="study_hours_per_day"/>
+<Value value="attendance_percentage"/>
+<Value value="assignment_score"/>
+<Value value="midterm_score"/>
+<Value value="final_exam_score"/>
+<Value value="participation_score"/>
+<Value value="internet_access"/>
+<Value value="extra_classes"/>
+<Value value="parent_education"/>
+<Value value="sleep_hours"/>
+</ListValue>
+</Parameter>
+<Parameter name="scoring.isPropensity" value="false"/>
+<Parameter name="neuralnet.MLPStoppingTrainingEpochsMaximum" value="computeAutomatically"/>
+<Parameter name="tree_directives" value=""/>
+<Parameter name="scoring.adSupressNonAnomalousRecords" value="false"/>
+<Parameter name="scoring.assocIsOnlyOutputValue" value="false"/>
+<Parameter name="tree.MinChildRecordsPct" value="1.0"/>
+<Parameter name="tree.CustomizeLayer">
+<ListValue/>
+</Parameter>
+<Parameter name="calculate_adjusted_propensities" value="NoCalc"/>
+<Parameter name="scoring.time_field" value=""/>
+<Parameter name="neuralnet.MLPStoppingMinimumAccuracy" value="false"/>
+<Parameter name="psm_distribute.AutoSetting" value="true"/>
+<Parameter name="scoring.assocIsOutputOrigInterval" value="false"/>
+<Parameter name="tree.Epsilon" value="0.001"/>
+<Parameter name="scoring.isStandardDeviationRequired" value="false"/>
+<Parameter name="neuralnet.MLPHiddenLayerUnitsMaximumNumber" value="50"/>
+<Parameter name="tree.ImpurityMeasure" value="Gini"/>
+<Parameter name="tree.SplitMergedCategories" value="false"/>
+<Parameter name="psm_distribute.MaxAdjustDegree" value="10"/>
+<Parameter name="pasw.annotation_label" value=""/>
+<Parameter name="pasw.annotation_toolTipText" value=""/>
+<Parameter name="SingleModel" value="Single"/>
+<Parameter name="tree.MaxNominalPredictorCategories" value="0"/>
+<Parameter name="psm_distribute.DataBlockSize" value="30000"/>
+<Parameter name="neuralnet.RBFHiddenLayerActivationFunction" value="normalizedRadialBasis"/>
+<Parameter name="tree.StdErrMultiplier" value="1.0"/>
+<Parameter name="tree.BonferroniAdjustment" value="true"/>
+<Parameter name="scoring.scoreValue" value=""/>
+<Parameter name="scoring.labelPattern">
+<StructuredValue>
+<Attribute name="prediction" value="kSCORING_PredictedValue_0"/>
+<Attribute name="probability" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="probcategory" value="kSCORING_Probability_2"/>
+<Attribute name="confidence" value="kSCORING_ConfidencePP_0"/>
+<Attribute name="stddev" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="tree-nodeid" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="cox-cumhazard" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="knn-caseid" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="knn-distance" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="knn-caselabel" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="adjustedpropensity" value="kSCORING_UndefinedLabel_0"/>
+<Attribute name="rawpropensity" value="kSCORING_UndefinedLabel_0"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="bag_distribute.UseMetaDataRole" value="false"/>
+<Parameter name="calculate_variable_importance" value="true"/>
+<Parameter name="tree.UseOverFitPreventionSet" value="true"/>
+<Parameter name="psm_distribute.FeatureSelectionType" value="PreviousModelBasedWithHistory"/>
+<Parameter name="scoring.isBaseModels" value="false"/>
+<Parameter name="neuralnet.MLPStoppingMaximumTrainingTimeMinutes" value="15"/>
+<Parameter name="psm_distribute.UseMetaDataRole" value="false"/>
+<Parameter name="bag_distribute.RandomSeed" value="12345"/>
+<Parameter name="scoring.enableSQL" value="false"/>
+<Parameter name="scoring.isNodeID" value="false"/>
+<Parameter name="scoring.isEnsemble" value="true"/>
+<Parameter name="neuralnet.UseMetaDataRole" value="false"/>
+<Parameter name="thread_num" value="10"/>
+<Parameter name="analytic_server_model_path" value=""/>
+<Parameter name="neuralnet.MLPOutputLayerActivationFunction" value="identity"/>
+<Parameter name="scoring.resolveNameConflict" value="true"/>
+<Parameter name="outerpartition.trainingValue" value=""/>
+<Parameter name="neuralnet.MLPTrainingOptimizationAlgorithm" value="scaledConjugateGradient"/>
+<Parameter name="scoring.assocNameTable">
+<ListValue/>
+</Parameter>
+<Parameter name="scoring.selflearningRandomization" value="0.0"/>
+<Parameter name="scoring.maxCategories" value="25"/>
+<Parameter name="neuralnet.MetaDataSource" value="Default"/>
+<Parameter name="neuralnet.HiddenLayer1Units" value="1"/>
+<Parameter name="ScoringCalRawPro" value="false"/>
+<Parameter name="scoring.adAnomalyIndexCutoff" value="0.0"/>
+<Parameter name="neuralnet.MLPStoppingMaximumStepsWithoutErrorDecreasing" value="1"/>
+<Parameter name="scoring.assocRepeatPredications" value="false"/>
+<Parameter name="neuralnet.ComputeSensitivity" value="true"/>
+<Parameter name="neuralnet.MLPRescalingNormalizedCorrection" value="0.02"/>
+<Parameter name="psm_distribute.MaxBaseModelNum" value="10"/>
+<Parameter name="pasw.annotation_autoLabel" value="true"/>
+<Parameter name="tree.TargetField" value="grade"/>
+<Parameter name="pasw.annotation_id" value="idXJ11GV3W16N"/>
+<Parameter name="scoring.isRawPropensity" value="false"/>
+<Parameter name="psm_distribute.RegressionWeightField" value=""/>
+<Parameter name="tree.MetaDataSource" value="Default"/>
+<Parameter name="neuralnet.MLPTrainingInitialLambda" value="5.0E-7"/>
+<Parameter name="tree.UseStdErrRule" value="false"/>
+<Parameter name="tree.Priors" value="Data"/>
+<Parameter name="scoring.isNeighbor" value="false"/>
+<Parameter name="split_distribute.split_fields">
+<ListValue/>
+</Parameter>
+<Parameter name="calculate_raw_propensities" value="false"/>
+<Parameter name="scoring.isStandardDeviation" value="false"/>
+<Parameter name="psm_distribute.EnsembleConMethod" value="Mean"/>
+<Parameter name="pasw.annotation_description" value=""/>
+<Parameter name="scoring.versionSupported" value="4.0"/>
+<Parameter name="replicateResults" value="false"/>
+<Parameter name="bag_distribute.UseRandomSeed" value="false"/>
+<Parameter name="scoring.selflearningRandomSeed" value="876547"/>
+<Parameter name="tree.Costs">
+<ListValue/>
+</Parameter>
+<Parameter name="outerpartition.partitionField" value=""/>
+<Parameter name="psm_distribute.TargetField" value=""/>
+<Parameter name="neuralnet.HiddenLayers" value="automaticUnits"/>
+<Parameter name="me.FrequencyWeightField" value=""/>
+<Parameter name="scoring.isCumHazard" value="false"/>
+<Parameter name="outerpartition.testingValue" value=""/>
+<Parameter name="scoring.scoringDll">
+<StructuredValue>
+<Attribute name="SmartScore" value="mcscorersmart"/>
+<Attribute name="NeuralNetwork" value="mcscorernnet"/>
+<Attribute name="MiningModel" value="mcscorermining"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="tree.CustomPriors">
+<ListValue/>
+</Parameter>
+<Parameter name="scoring.isPrediction" value="true"/>
+<Parameter name="bag_distribute.MaxIterations" value="10"/>
+<Parameter name="psm_distribute.RandomSeed" value="12345"/>
+<Parameter name="scoring.maxPredictions" value="3"/>
+<Parameter name="scoring.assocIsOnlyTrueForFlag" value="true"/>
+<Parameter name="scoring.isKohonenX" value="true"/>
+<Parameter name="scoring.isKohonenY" value="true"/>
+<Parameter name="scoring.past_survival_time" value=""/>
+<Parameter name="pasw.annotation_lastSavedDate" value="1.775492622431E9"/>
+<Parameter name="method" value="Chaid"/>
+<Parameter name="scoring.missingValuePolicy" value="asMissingPredictor"/>
+<Parameter name="scoring.isConfidence" value="true"/>
+<Parameter name="support_regressionweight" value="true"/>
+<Parameter name="tree.UsePercentageForNodeSizeRequirement" value="percentage"/>
+<Parameter name="scoring.confidenceBasedOn" value="onProbability"/>
+<Parameter name="scoring.assocCheckBasket" value="isOutsideBasket"/>
+<Parameter name="objective_choose" value="buildNewModel"/>
+<Parameter name="neuralnet.MissingValueHandling" value="listwiseDeletion"/>
+<Parameter name="tree.OverFitPreventionSetPct" value="30.0"/>
+<Parameter name="neuralnet.RBFHiddenLayerUnitsRangeMaximum" value="0"/>
+<Parameter name="tree.Scores">
+<ListValue/>
+</Parameter>
+<Parameter name="scoring.namePattern">
+<StructuredValue>
+<Attribute name="prediction" value="${M}{S}-{T}"/>
+<Attribute name="probability" value="${M}{R}{S}-{T}"/>
+<Attribute name="probcategory" value="${M}{R}{S}-{C}"/>
+<Attribute name="confidence" value="${M}{R}{S}-{T}"/>
+<Attribute name="stddev" value="${M}{R}-{T}"/>
+<Attribute name="tree-nodeid" value="NodeID"/>
+<Attribute name="cox-cumhazard" value="CumHazard"/>
+<Attribute name="knn-caseid" value="${M}{S}-neighbor-{G}"/>
+<Attribute name="knn-distance" value="${M}{S}-distance-{G}"/>
+<Attribute name="knn-caselabel" value="${M}{S}-neighbor-{G}"/>
+<Attribute name="adjustedpropensity" value="$AP{S}-{T}"/>
+<Attribute name="rawpropensity" value="$RP{S}-{T}"/>
+<Attribute name="clustering-clusterid" value="clustering-clusterid"/>
+<Attribute name="clustering-kohonen-x" value="${M}{R}{S}-Kohonen"/>
+<Attribute name="clustering-kohonen-y" value="${M}{R}{S}-Kohonen"/>
+<Attribute name="clustering-kohonen-xy" value="${M}{R}{S}-Kohonen"/>
+<Attribute name="anomaly-flag" value="${M}{S}-Anomaly"/>
+<Attribute name="anomaly-index" value="${M}{S}-AnomalyIndex"/>
+<Attribute name="anomaly-clusterid" value="${M}{S}-PeerGroup"/>
+<Attribute name="anomaly-varname" value="${M}{S}-Field-{G}"/>
+<Attribute name="anomaly-avrimpact" value="${M}{S}-FieldImpact-{G}"/>
+<Attribute name="clustering-kmeans-clusterid" value="${M}{S}-{N}"/>
+<Attribute name="clustering-kmeans-distance" value="${M}{R}{S}-{N}"/>
+<Attribute name="association_prediction" value="${M}{S}-{T}-{G}"/>
+<Attribute name="association_confidence" value="${M}{R}{S}-{T}-{G}"/>
+<Attribute name="association_rulesupport" value="${M}-{R}{S}-{G}"/>
+<Attribute name="association_lift" value="${M}-{R}{S}-{G}"/>
+<Attribute name="association_deployability" value="${M}-{R}{S}-{G}"/>
+<Attribute name="association_antecedentsupport" value="${M}-{R}{S}-{G}"/>
+<Attribute name="association_ruleid" value="${M}{S}-Rule_ID-{G}"/>
+<Attribute name="selflearning_prediction" value="${M}{S}-{T}-{G}"/>
+<Attribute name="selflearning_confidence" value="${M}{R}{S}-{T}-{G}"/>
+<Attribute name="ruleset-dl-probability" value="${M}P{S}-{T}"/>
+<Attribute name="ruleset-firstid" value="${M}I{S}-{T}"/>
+<Attribute name="timeseries-lowerconfidence" value="${M}LCI{S}-{T}"/>
+<Attribute name="timeseries-upperconfidence" value="${M}UCI{S}-{T}"/>
+<Attribute name="timeseries-noiseresiduals" value="${M}NR{S}-{T}"/>
+<Attribute name="nn-weightedinputs" value="${M}{S}-{R}"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="use_tree_directives" value="false"/>
+<Parameter name="neuralnet.MLPHiddenLayerUnitsMinimumNumber" value="1"/>
+<Parameter name="adjusted_propensity_partition" value="Test"/>
+<Parameter name="neuralnet.RandomSeed" value="229176228"/>
+<Parameter name="neuralnet.MLPTrainingInitialLearningRate" value="0.4"/>
+<Parameter name="pasw.annotation_keywords" value=""/>
+<Parameter name="scoring.isDistance" value="false"/>
+<Parameter name="neuralnet.RBFHiddenLayerUnitsRange" value="automaticallyComputeRange"/>
+<Parameter name="neuralnet.InputFieldList">
+<ListValue/>
+</Parameter>
+<Parameter name="tree.MinParentRecordsPct" value="2.0"/>
+<Parameter name="tree.RegressionWeightField" value=""/>
+<Parameter name="scoring.modelID">
+<StructuredValue>
+<Attribute name="TreeModel" value="R"/>
+<Attribute name="discriminant-model" value="discriminant-model"/>
+<Attribute name="GeneralRegressionModel" value="L"/>
+<Attribute name="ClusteringModel" value="ClusteringModel"/>
+<Attribute name="NeuralNetwork" value="N"/>
+<Attribute name="AssociationModelLattice" value="AssociationModelLattice"/>
+<Attribute name="SeqAssociationLattice" value="SeqAssociationLattice"/>
+<Attribute name="NaiveBayesModel" value="NaiveBayesModel"/>
+<Attribute name="AssociationModel" value="A"/>
+<Attribute name="RuleSetModel" value="RuleSetModel"/>
+<Attribute name="BayesNetModel" value="B"/>
+<Attribute name="SelflearningModel" value="S"/>
+<Attribute name="SupportVectorMachineModel" value="S"/>
+<Attribute name="NearestNeighborModel" value="KNN"/>
+<Attribute name="MiningModel" value="MiningModel"/>
+<Attribute name="CLUSTER_KOHONEN" value="K"/>
+<Attribute name="ANOMALYDETECTION" value="O"/>
+<Attribute name="CLUSTER_KMEANS" value="KM"/>
+<Attribute name="RULESET_DL" value="D"/>
+<Attribute name="GZLR" value="G"/>
+<Attribute name="LR" value="E"/>
+<Attribute name="RegressionModel" value="RegressionModel"/>
+<Attribute name="TimeSeriesModel" value="TS"/>
+<Attribute name="SELF_LEARNING" value="S"/>
+<Attribute name="CLUSTER_TWOSTEP" value="T"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="tree.UseCustomizeLayer" value="false"/>
+<Parameter name="modelRename" value="false"/>
+<Parameter name="scoring.isOutputAll" value="false"/>
+<Parameter name="tree.TreeGrowingMethod" value="Chaid"/>
+<Parameter name="tree.AdjustedPropensityPartition" value="none"/>
+<Parameter name="scoring.isOthers" value="false"/>
+<Parameter name="tree.MaxSurrogates" value="5"/>
+<Parameter name="scoring.isProbability" value="false"/>
+<Parameter name="scoring.isOutputWeightedInputs" value="false"/>
+<Parameter name="ensemble_con_method" value="Mean"/>
+<Parameter name="tree.AlphaOfMergeSplit" value="0.025"/>
+<Parameter name="modelName" value=""/>
+<Parameter name="psm_distribute.TestingDataSize" value="3000"/>
+<Parameter name="neuralnet.HiddenLayer2Units" value="0"/>
+<Parameter name="scoring.selflearningReliability" value="true"/>
+<Parameter name="psm_distribute.DoBlockBalance" value="true"/>
+<Parameter name="tree.MaxNumberOfCompetitors" value="0"/>
+<Parameter name="neuralnet.RescalingRangeInputs" value="standardized"/>
+<Parameter name="neuralnet.TargetField">
+<ListValue/>
+</Parameter>
+<Parameter name="tree.RandomSeed" value="54752075"/>
+<Parameter name="scoring.time_interval" value="1.0"/>
+<Parameter name="UsePartitionedData" value="true"/>
+<Parameter name="tree.MinChildRecordsABS" value="50"/>
+<Parameter name="ensemble_cat_method" value="Voting"/>
+<Parameter name="scoring.nameList">
+<StructuredValue>
+<Attribute name="prediction" value=""/>
+<Attribute name="probability" value=""/>
+<Attribute name="probcategory">
+<ListValue/>
+</Attribute>
+<Attribute name="confidence" value=""/>
+<Attribute name="stddev" value=""/>
+<Attribute name="tree-nodeid" value=""/>
+<Attribute name="cox-cumhazard" value=""/>
+<Attribute name="knn-caseid">
+<ListValue/>
+</Attribute>
+<Attribute name="knn-distance">
+<ListValue/>
+</Attribute>
+<Attribute name="knn-caselabel">
+<ListValue/>
+</Attribute>
+<Attribute name="adjustedpropensity" value=""/>
+<Attribute name="rawpropensity" value=""/>
+</StructuredValue>
+</Parameter>
+<Parameter name="Chaid_RandomSeed" value="701499504"/>
+<Parameter name="outerpartition.selectedPartition" value="training"/>
+<Parameter name="scoring.isReferenceModel" value="false"/>
+<Parameter name="neuralnet.MLPTrainingMaximumCasesMemoryStore" value="1000"/>
+<Parameter name="tree.CrossSampleFolds" value="10"/>
+<Parameter name="neuralnet.MLPStoppingMinimumAccuracyValue" value="90.0"/>
+<Parameter name="scoring.resultType">
+<StructuredValue>
+<Attribute name="prediction" value=""/>
+<Attribute name="probability" value="P"/>
+<Attribute name="probcategory" value="P"/>
+<Attribute name="confidence" value="C"/>
+<Attribute name="stddev" value="S"/>
+<Attribute name="clustering-kohonen-x" value="X"/>
+<Attribute name="clustering-kohonen-y" value="Y"/>
+<Attribute name="clustering-kohonen-xy" value="XY"/>
+<Attribute name="clustering-kmeans-distance" value="D"/>
+<Attribute name="association_confidence" value="C"/>
+<Attribute name="association_antecedentsupport" value="AntecedentSupport"/>
+<Attribute name="association_rulesupport" value="RuleSupport"/>
+<Attribute name="association_lift" value="Lift"/>
+<Attribute name="association_deployability" value="DeployAbility"/>
+<Attribute name="selflearning_confidence" value="C"/>
+<Attribute name="nn-weightedinputs" value="WeightedInputs-Neuron"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="tree.UseMetaDataRole" value="false"/>
+<Parameter name="tree.MinImpurity" value="1.0E-4"/>
+<Parameter name="objective_goal" value="standard"/>
+<Parameter name="UseFrequencyWeight" value="true"/>
+<Parameter name="bag_distribute.EnsembleCatMethod" value="Voting"/>
+<Parameter name="neuralnet.IncludeUserMissing" value="false"/>
+<Parameter name="scoring.isProbabilityCategory" value="false"/>
+<Parameter name="scoring.all_probabilities" value="true"/>
+<Parameter name="psm_distribute.ContinueTraining" value="buildNewModel"/>
+<Parameter name="scoring.selflearningSort" value="descending"/>
+<Parameter name="neuralnet.MLPStoppingMaximumTrainingTime" value="true"/>
+<Parameter name="neuralnet.MLPTrainingType" value="batch"/>
+<Parameter name="MaxTreeDepth" value="Default"/>
+<Parameter name="neuralnet.MLPRescalingAdjustedNormalizedCorrection" value="0.02"/>
+<Parameter name="tree.UseRandomSeed" value="true"/>
+<Parameter name="boosting.RegressionWeightField" value=""/>
+<Parameter name="neuralnet.MLPStoppingTrainingEpochsMaximumNumber" value="250"/>
+<Parameter name="tree.MinParentRecordsABS" value="100"/>
+<Parameter name="scoring.modelDll">
+<StructuredValue>
+<Attribute name="TreeModel" value="TreeModel"/>
+<Attribute name="discriminant-model" value="discriminant-model"/>
+<Attribute name="GeneralRegressionModel" value="GeneralRegressionModel"/>
+<Attribute name="ClusteringModel" value="ClusteringModel"/>
+<Attribute name="NeuralNetwork" value="NeuralNetwork"/>
+<Attribute name="AssociationModelLattice" value="AssociationModelLattice"/>
+<Attribute name="SeqAssociationLattice" value="SeqAssociationLattice"/>
+<Attribute name="NaiveBayesModel" value="NaiveBayesModel"/>
+<Attribute name="AssociationModel" value="AssociationModel"/>
+<Attribute name="RuleSetModel" value="RuleSetModel"/>
+<Attribute name="BayesNetModel" value="BayesNetModel"/>
+<Attribute name="SupportVectorMachineModel" value="SupportVectorMachineModel"/>
+<Attribute name="NearestNeighborModel" value="NearestNeighborModel"/>
+<Attribute name="MiningModel" value="MiningModel"/>
+<Attribute name="RegressionModel" value="RegressionModel"/>
+<Attribute name="TimeSeriesModel" value="TimeSeriesModel"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="scoring.cumulative_hazard" value="false"/>
+<Parameter name="tree.FrequencyWeightField" value=""/>
+<Parameter name="bag_distribute.FrequencyWeightField" value=""/>
+<Parameter name="neuralnet.RBFHiddenUnitsOverlap" value="automaticallyCompute"/>
+<Parameter name="neuralnet.MLPStoppingDataComputingPredictionError" value="chooseAutomatically"/>
+<Parameter name="psm_container_reader.DataModelKey" value="__PSM_HoldOut_MetaData__"/>
+<Parameter name="neuralnet.MLPTrainingMiniBatchRecords" value="automaticallyCompute"/>
+<Parameter name="tree.MaxTreeDepth" value="5"/>
+<Parameter name="neuralnet.UseOverFitPreventionSet" value="true"/>
+<Parameter name="tree.AdjustPriors" value="false"/>
+<Parameter name="Scoring_ForME" value="true"/>
+<Parameter name="neuralnet.MLPTrainingLearningRateReductionInEpochs" value="10"/>
+<Parameter name="scoring.assocTransactionalID" value=""/>
+<Parameter name="split_collect.InputFieldList">
+<ListValue/>
+</Parameter>
+<Parameter name="psm_container_reader.DataKey" value="__PSM_HoldOut__"/>
+<Parameter name="psm_distribute.ImbalanceThreshold" value="0.3"/>
+<Parameter name="scoring.kmLabelPrefix" value=""/>
+<Parameter name="me.CalculateAdjustedPropensity" value="false"/>
+<Parameter name="psm_distribute.FrequencyWeightField" value=""/>
+<Parameter name="bag_distribute.RegressionWeightField" value=""/>
+<Parameter name="scoring.predicateList">
+<StructuredValue>
+<Attribute name="closeTo" value="kSCORING_Predicate_CloseTo"/>
+<Attribute name="crosses" value="kSCORING_Predicate_Crosses"/>
+<Attribute name="intersect" value="kSCORING_Predicate_Intersect"/>
+<Attribute name="touch" value="kSCORING_Predicate_Touch"/>
+<Attribute name="overlap" value="kSCORING_Predicate_Overlap"/>
+<Attribute name="within" value="kSCORING_Predicate_Within"/>
+<Attribute name="contain" value="kSCORING_Predicate_Contain"/>
+<Attribute name="northOf" value="kSCORING_Predicate_NorthOf"/>
+<Attribute name="southOf" value="kSCORING_Predicate_SouthOf"/>
+<Attribute name="eastOf" value="kSCORING_Predicate_EastOf"/>
+<Attribute name="westOf" value="kSCORING_Predicate_WestOf"/>
+</StructuredValue>
+</Parameter>
+<Parameter name="neuralnet.FrequencyWeightField" value=""/>
+<Parameter name="psm_distribute.ModelRequired" value="false"/>
+<Parameter name="neuralnet.MLPTrainingLearningRateLowerBoundary" value="0.001"/>
+<Parameter name="psm_distribute.DoFeatureSelection" value="true"/>
+<Parameter name="psm_distribute.UseRandomSeed" value="false"/>
+<Parameter name="tree.MaxNumberOfNominalCatsSurr" value="0"/>
+</Parameters>
